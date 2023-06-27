@@ -1,10 +1,11 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
+import SignIn from "./Pages/SignIn";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<></>} />
+        <Route path="/" element={<SignIn />} />
       </Routes>
     </>
   );
